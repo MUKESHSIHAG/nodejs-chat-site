@@ -1,0 +1,15 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "practice site for learn",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e js,css,ejs,json app/app.js --watch app"
+  },
+  "author": "Mukesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

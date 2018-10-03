@@ -1,0 +1,22 @@
+{
+  "friends": [{
+    "title" : "Class Friend",
+    "name": "Abhishek",
+    "shortname" : "Golu",
+    "summary" : "Intro",
+    "description": "<p>AjayAbhishek was born in Shimla </p>"
+    },{
+    "title" : "Best Friend ",
+    "name": "Sonu",
+    "shortname" : "sonu",
+    "summary": "Intro",
+    "description": "<p>sonu was born in U.P</p>"
+  },{
+    "title" : "ME",
+    "name": "Mukesh",
+    "shortname" : "mukesh",
+    "summary": "INTRO",
+    "description": "<p>Vijay was born in mukesh</p>"
+
+  }]
+}
