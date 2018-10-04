@@ -1,13 +1,14 @@
 var express = require('express');
 var reload = require('reload');
 var app = express();
+var dataFile = require('./data/data.json');
 
 app.set('port', process.env.PORT || 2000);
+app.set('appData',dataFile);
 app.set('view engine','ejs');
 app.set('views','app/views');
-app.locals.siteTitle = 'hacker';
 
-
+app.locals.siteTitle = 'Hack3r';
 
 app.use(express.static('app/public'));
 app.use(require('./routers/index'));
