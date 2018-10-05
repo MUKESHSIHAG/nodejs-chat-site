@@ -9,6 +9,7 @@ app.set('view engine','ejs');
 app.set('views','app/views');
 
 app.locals.siteTitle = 'Hack3r';
+app.locals.allFriends = dataFile.friends;
 
 app.use(express.static('app/public'));
 app.use(require('./routers/index'));

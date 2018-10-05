@@ -22,6 +22,9 @@
                 <ul class="dropdown-menu">
                   <li><a href="/friends">All Friends</a></li>
                   <li role="separator" class="divider"></li>
+                    <% allFriends.forEach(function(item){ %>
+                    <li><a href="/friends/<%=item.shortname%>"><%=item.name %></a><li>
+                  <%  }); %>
                 </ul>
             </li>
           </ul><!-- nav -->
