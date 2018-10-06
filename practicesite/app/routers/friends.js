@@ -14,18 +14,20 @@ router.get('/friends', function(req, res){
 });
 
 router.get('/friends/:friendid', function(req, res){
-  var data = req.app.get('appData');
-  pageFriends = [];
+  var data= req.app.get('appData')
+  var pageFriends = [];
   data.friends.forEach(function(item){
     if(item.shortname == req.params.friendid){
       pageFriends.push(item);
     }
   });
-  res.render('friends',{
-    pageTitle: 'Friend info',
+  res.render('friends', {
+    pageTitle: 'Friends Info',
     friends: pageFriends,
     pageID: 'friendDetail'
   });
+
+
 });
 
 

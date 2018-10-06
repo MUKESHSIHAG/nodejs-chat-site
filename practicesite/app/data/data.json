@@ -1,22 +1,22 @@
 {
   "friends": [{
-    "title" : "Class Friend",
-    "name": "Abhishek",
-    "shortname" : "Golu",
+    "title" : "Best Friend",
+    "name": "Veeral",
+    "shortname" : "Veeral",
     "summary" : "Intro",
-    "description": "<p>Abhishek was born in Shimla </p>"
+    "description": "<p>Ajay was born in D.Dun </p>"
     },{
     "title" : "Best Friend ",
-    "name": "Sonu",
-    "shortname" : "sonu",
+    "name": "Manpreet",
+    "shortname" : "Manpreet",
     "summary": "Intro",
-    "description": "<p>sonu was born in U.P</p>"
+    "description": "<p>Manpreet was born in D.dun</p>"
   },{
     "title" : "ME",
-    "name": "Mukesh",
-    "shortname" : "mukesh",
+    "name": "Vijay",
+    "shortname" : "Vijay",
     "summary": "INTRO",
-    "description": "<p>mukesh was born in Rajasthan</p>"
+    "description": "<p>Vijay was born in D.dun</p>"
 
   }]
 }
