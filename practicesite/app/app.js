@@ -2,14 +2,14 @@ var express = require('express');
 var reload = require('reload');
 var app = express();
 var dataFile = require('./data/data.json');
-var io= require('socket.io')();
+var io = require('socket.io')();
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4000);
 app.set('appData',dataFile);
 app.set('view engine','ejs');
 app.set('views','app/views');
 
-app.locals.siteTitle = 'CSgeeks';
+app.locals.siteTitle = 'Hack3R';
 app.locals.allFriends = dataFile.friends;
 
 app.use(express.static('app/public'));
@@ -32,14 +32,3 @@ io.on('connection', function(socket) {
 });
 
 reload(Server, app);
-
-
-
-//var http = require('http');
-//var myServer = http.createServer(function(req, res){
-//  res.writeHead(200,{"Content-Type":"text/html"});
-//  res.write('<h1>connection meetups</h1>');
-//  res.end();
-//});
-//myServer.listen(3000);
-//console.log('go to port 3000');

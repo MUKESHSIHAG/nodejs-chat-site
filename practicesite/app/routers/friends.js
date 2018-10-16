@@ -6,7 +6,7 @@ router.get('/friends', function(req, res){
   var pageFriends = data.friends;
 
   res.render('friends', {
-    pageTitle: 'Friends',
+    pageTitle: 'Photos',
     friends: pageFriends,
     pageID: 'friends'
   });
