@@ -25,4 +25,4 @@ these are two different windows open at same time
 
 its always good practice to implement something by learning some new concepts. It increases your knowledge and ability to face errors and bugs. 
 
-Licensed under [MIT License](LICENSE).
+Licensed under [MIT License](LICENSE.md).
